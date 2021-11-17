@@ -28,12 +28,13 @@ const Home = () => {
                             placeholder="EJ: Colombia"
                             name="country"
                             required
+                            style={{border: 'solid' }}
                             onChange={(e) => setCountry(e.target.value)}
                         />
                         <Button
                             variant="primary"
                             type="submit"
-                            className="p-2"
+                            className="pt-2"
                         >
                             Consultar
                         </Button>
